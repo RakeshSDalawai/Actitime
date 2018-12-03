@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Title is matching: actiTIME - Login]]>
+    </line>
+    <line>
+      <![CDATA[valid username: rakesh]]>
+    </line>
+    <line>
+      <![CDATA[Valid password: ]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching: actiTIME - Enter Time-Track]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching: actiTIME - Login]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2018-12-03T08:22:02Z" name="Default suite" finished-at="2018-12-03T08:22:25Z" duration-ms="23042">
+    <groups>
+    </groups>
+    <test started-at="2018-12-03T08:22:02Z" name="Default test" finished-at="2018-12-03T08:22:25Z" duration-ms="23042">
+      <class name="com.actitime.tests.ValidloginlogoutTest">
+        <test-method is-config="true" signature="preConditions()[pri:0, instance:com.actitime.tests.ValidloginlogoutTest@1757cd72]" started-at="2018-12-03T08:22:02Z" name="preConditions" finished-at="2018-12-03T08:22:13Z" duration-ms="10696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method signature="testValidLoginLogout()[pri:0, instance:com.actitime.tests.ValidloginlogoutTest@1757cd72]" started-at="2018-12-03T08:22:13Z" name="testValidLoginLogout" finished-at="2018-12-03T08:22:25Z" duration-ms="12146" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Title is matching: actiTIME - Login]]>
+            </line>
+            <line>
+              <![CDATA[valid username: rakesh]]>
+            </line>
+            <line>
+              <![CDATA[Valid password: ]]>
+            </line>
+            <line>
+              <![CDATA[Title is matching: actiTIME - Enter Time-Track]]>
+            </line>
+            <line>
+              <![CDATA[Title is matching: actiTIME - Login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidLoginLogout -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:com.actitime.tests.ValidloginlogoutTest@1757cd72]" started-at="2018-12-03T08:22:25Z" name="postCondition" finished-at="2018-12-03T08:22:25Z" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- com.actitime.tests.ValidloginlogoutTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
